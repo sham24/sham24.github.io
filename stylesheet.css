@@ -1,0 +1,137 @@
+body{
+    font-family: "Verdana", Geneva, sans-serif;
+
+}
+
+
+ul.menu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    font-size: 20px;
+}
+
+li {
+    float: right;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 49px 50px;
+    text-decoration: none;
+    color:black;
+}
+
+li a:hover {
+    background-color:#ddd;
+}
+
+
+#active {
+     background-color: #f9be02;
+}
+
+
+#logo {
+  color:#333;
+  height:120px;
+  width: 100px;
+}
+
+.icon-bar {
+    width: 100%;
+    text-align: center;
+    background-color: #71d7ff;
+    overflow: auto;
+}
+
+.icon-bar a {
+    width: 10%;
+    padding: 1px 0;
+    float: left;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+
+#search{
+ float:right;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #ea4335 !important;
+}
+
+.active1 {
+    background-color: #3d5b99 !important;
+}
+
+.active2 {
+    background-color: #25a7da !important;
+}
+
+#hometext{
+    text-align:center;
+    margin-top:50px;
+    border-bottom:1px double black;
+}
+
+.indextable{
+    min-width: 900px;
+    width: 75%;
+    margin: auto;
+    margin-top: 45px;
+    table-layout: fixed;
+    margin-bottom: 100px;
+}
+
+body{
+	text-align: center;
+	background: #00ECB9;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+h2{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
