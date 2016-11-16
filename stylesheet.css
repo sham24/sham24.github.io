@@ -102,16 +102,16 @@ body{
 }
 
 h2{
-    text-shadow: 1px 1px #000;
+    text-shadow: 2px 2px #000;
     font-weight: 100;
-  color: #02977e;
+  color: #f0bf19;
   font-size: 40px;
   margin: 40px 0px 20px;
 }
 
 #clockdiv{
 	font-family: sans-serif;
-	color: #fff;
+	color: #000;
 	display: inline-block;
 	font-weight: 100;
 	text-align: center;
@@ -121,14 +121,14 @@ h2{
 #clockdiv > div{
 	padding: 10px;
 	border-radius: 3px;
-	background: #02e3be;
+	background: #f0bf19;
 	display: inline-block;
 }
 
 #clockdiv div > span{
 	padding: 15px;
 	border-radius: 3px;
-	background:	#02977e;
+	background:	#a8830b;
 	display: inline-block;
 }
 
