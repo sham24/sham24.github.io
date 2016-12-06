@@ -147,8 +147,7 @@ h2{
   padding:3%;
 }
   .ridecontent{
-  background-color:#ef2a3a
-;
+  background-color:#ef2a3a;
   height:inherit;
   width:90%;
   margin-left:auto;
@@ -222,4 +221,15 @@ h2{
 .itemTxt p {
  text-align: left;
  margin-top:15px;
+}
+
+#footer {
+ position: fixed;
+ bottom: 0;
+ height: 20px;
+ border: 1px solid black;
+ padding: 3px;
+ background-color: #FFF;
+ color: #000;
+ width: 100%;
 }
