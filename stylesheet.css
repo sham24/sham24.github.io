@@ -1,5 +1,5 @@
 body{
-    font-family: "Verdana", Geneva, sans-serif;
+   
 
 }
 
@@ -11,6 +11,7 @@ ul.menu {
     overflow: hidden;
     background-color: #FFFFFF;
     font-size: 20px;
+    min-width: 1125px;
 }
 
 li {
