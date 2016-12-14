@@ -25,8 +25,8 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    margin:0px;
-    font-family:'Open Sans', sans-serif;
+    margin:0;
+   
 
 }
 
@@ -55,19 +55,19 @@ h2{
     font-weight:bold;
 }
 
-#indexvid{
-  width:100%;
-  height:200px;
+#hometext{
+    margin-top:0px;
+}     
+
+
+video{
+    margin: 0px;
 }
 
 
-
-
-
-
-
-
-
+img:hover{
+    opacity: 0.8;
+}
 
 
 
@@ -84,7 +84,6 @@ h2{
   <a class="active" href="#"><i class="fa fa-google-plus"></i></a> 
   <a class="active1" href="#"><i class="fa fa-facebook"></i></a> 
   <a class="active2" href="#"><i class="fa fa-twitter"></i></a>
-  <a href="#" id="search"><i class="fa fa-search"></i></a> 
   <a href="map.html" id="search"><i class="fa fa-map-o" aria-hidden="true"></i></a>
 </div>
  
@@ -100,45 +99,35 @@ h2{
 </ul>
 
 
+
+
 <div id="hometext">
  
- <img src="images/panda_logo_good.png" height="195px" width="180px">
-
-<div style = 'margin: 0 auto; width: 250px; background-color: rgba(249,190,2, 0.9);'>
-  <h1 id='title'>InSaini World</h1>
-</div>
-
-<div style = 'margin: 0 auto; width: 250px; background-color: rgba(249,190,2, 0.9);'>
-  <p style = 'padding: 5px;'>InSaini world offers the best in family and thrill rides.</p>
-</div>
-
-<div style = 'margin: 0 auto; margin-bottom: 5px; width: 53px; background-color: rgba(249,190,2, 0.9);'>
-  <sub id="sub">Est.2016</sub>
-</div>
+ <div class="indexvid">
 
 
- 
-</div>
-
-<div class="indexvid">
-
-
-        <video   preload="auto" autoplay loop muted="muted" volume="0"> 
+        <video width="1400" height="787" preload="auto" autoplay loop muted="muted" volume="0"> 
         <source src="website_video.webm" type="video/webm"> 
         </video>
         
-        
-        
+    
         </div>
 
 
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+</div>
 
 
 
-
-
-
-<h2>New Year Countdown</h2>
+<h2>New Years Countdown</h2>
 <div id="clockdiv">
   <div>
     <span class="days"></span>
@@ -158,11 +147,19 @@ h2{
   </div>
 </div>
 
+
+
+
+
+
+
+
+
 <table class="indextable">
  <tr id="color">
-  <td><img src="images/ridespic.jpg" class="tablepic"><br>Experience the exhilarating rides we have to offer here.</td>
-  <td><img src="images/liveent.jpg" class="tablepic" ><br>Enjoy live perfomances that will leave you awestruck!</td>
-  <td><img src="images/dining.jpg" class="tablepic"><br>Savor the taste of world class fine dining.</td>
+  <td><a href="rides.html"><img src="images/ridespic.jpg" class="tablepic"></a><br>Experience the exhilarating rides we have to offer here.</td>
+  <td><a href="attractions.html"><img src="images/liveent.jpg" class="tablepic" ></a><br>Enjoy live perfomances that will leave you awestruck!</td>
+  <td><a href="food.html"><img src="images/dining.jpg" class="tablepic"></a><br>Savor the taste of world class fine dining.</td>
  </tr>
 </table>
 
